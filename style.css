@@ -1,45 +1,21 @@
-/******
-*RESET*
-******/
+/********* RESET **********/
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/*******
-*COMMON*
-*******/
-
-.container{
-    display: flex;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    width: 1600px;
-    padding: 60px; 
-    gap: 20px;
-}
+/********* COMMON **********/
 
 
-header .topbar{
-    height: 70px;
-    background-color: #ff6900;
-}
+
+/********* HEADER **********/
 
 
-/*******
-* MAIN *
-********/
+
+/********* MAIN **********/
 
 
-main.catalog{
-    max-width: 2000px;
-}
 
-main .product{
-    height: 700px;
-    width: 450px;
-    border: 2px solid black;
-}
-
+/********* FOOTER **********/
