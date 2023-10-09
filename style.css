@@ -66,11 +66,11 @@ body{
     color: #e31b23;
 }
 
-.product-img:hover .default-img{
+.images:hover .default-img{ 
     display: none;
 }
 
-.product-img:hover .hover-img{
+.images:hover .hover-img{
     display: block;
 }
 
