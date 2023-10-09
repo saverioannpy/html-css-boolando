@@ -59,6 +59,11 @@ body{
     right: 0;
     background-color: white;
     padding: 10px;
+    font-size: 18px;
+}
+
+.product-img .favorite:hover{
+    color: #e31b23;
 }
 
 .product-img:hover .default-img{
@@ -68,6 +73,7 @@ body{
 .product-img:hover .hover-img{
     display: block;
 }
+
 
 .product .tags{
     bottom: 40px;
