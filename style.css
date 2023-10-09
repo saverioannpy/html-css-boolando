@@ -35,11 +35,47 @@ body{
     width:calc((100% - 20px) / 3);
 }
 
+.product-img{
+    position: relative;
+}
+
 .product-img img{
     width: 100%;
     display: block;
+    position: relative;
 }
 
+.product-img .tags,
+.product-img .favorite{
+    position: absolute;
+}
+
+.product-img .favorite{
+    top: 10px;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+}
+
+.product .tags{
+    bottom: 40px;
+    left: 0;
+}
+
+.product .tags .tag{
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.product .tags .tag.sale{
+    background-color: red;
+}
+
+.product .tags .tag.sostenibility{
+    background-color: green;
+}
 
 .product-info{
     font-size: 14px;
