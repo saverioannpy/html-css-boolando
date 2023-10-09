@@ -45,6 +45,10 @@ body{
     position: relative;
 }
 
+.product-img .hover-img{
+    display: none;
+}
+
 .product-img .tags,
 .product-img .favorite{
     position: absolute;
@@ -55,6 +59,14 @@ body{
     right: 0;
     background-color: white;
     padding: 10px;
+}
+
+.product-img:hover .default-img{
+    display: none;
+}
+
+.product-img:hover .hover-img{
+    display: block;
 }
 
 .product .tags{
